@@ -1,0 +1,563 @@
+@charset "utf-8";
+/* Global Styles */
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 960px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+}
+/* Header */
+header {
+	text-align: center;
+	display: inline-block;
+}
+header .profileLogo .logoPlaceholder {
+	background-color: rgba(208,207,207,1.00);
+	width: 187px;
+	text-align: center;
+}
+header .logoPlaceholder span {
+	width: 80px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
+}
+header .profilePhoto {
+	width: 259px;
+	border-radius: 50%;
+	height: 259px;
+	clear: both;
+}
+header .profileHeader h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #3399ff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+header .profileHeader h3 {
+	font-family: sans-serif;
+	color: #3399ff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+hr {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+}
+header .profileHeader p {
+	font-family: sans-serif;
+	color: #3399ff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+header .socialNetworkNavBar {
+	text-align: center;
+	display: block;
+	margin-top: 30px;
+	clear: both;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	border-radius: 30%;
+	cursor: pointer;
+}
+header .socialNetworkNavBar .socialNetworkNav img:hover {
+	opacity: 0.5;
+}
+/* Main Content sections */
+.mainContent .section1 {
+	display: inline-block;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-family: 'Montserrat', sans-serif;
+	color: #3399ff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	margin: 0 3% 0 0;
+	float: left;
+	clear: both;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	padding: 0px;
+}
+.mainContent .section1 .section1Content {
+	font-family: ProximaNova;
+	font-size: 14px;
+	font-weight: 100;
+	color: rgba(208,207,207,1.00);
+}
+.mainContent .section1 .section1Content span {
+	color: #3399ff;
+	font-family: sans-serif;
+}
+.section2 .sectionContentTitle {
+	font-family: sans-serif;
+	color: #3399ff;
+	font-size: 18px;
+	font-weight: 700;
+}
+.section2 .sectionContentSubTitle {
+	font-family: sans-serif;
+	color: rgba(68,67,67,1.00);
+	font-size: 14px;
+	font-weight: 400;
+}
+.mainContent {
+	display: block;
+}
+.mainContent .externalResourcesNav .externalResources {
+	background-color: rgba(208,207,207,1.00);
+	display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 3%;
+	cursor: pointer;
+}
+.mainContent .externalResourcesNav .externalResources:hover {
+    background-color: rgba(153,153,153,1.00);
+}
+.externalResourcesNav .externalResources a {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.mainContent .externalResourcesNav .dropdown {
+    position: static;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(190,190,190,1.00);
+    cursor: pointer;
+    color: rgba(255,255,255,1.00);
+}
+
+.mainContent .externalResourcesNav .dropdown:hover {
+    background-color: rgba(153,153,153,1.00);
+}
+.externalResourcesNav .dropdown span {
+	font-size: 11pt;
+
+}
+
+.externalResourcesNav .dropdown a {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.mainContent .externalResourcesNav .dropdown-content {
+  display: none;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  max-width: 45%;
+  color: rgba(0,0,0,1.00);
+}
+.mainContent .externalResourcesNav .dropdown:hover .dropdown-content {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.mainContent .externalResourcesNav .externalResources2 {
+	background-color: rgba(208,207,207,1.00);
+	display: inline-block;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16pt;
+	cursor: pointer;
+}
+.mainContent .externalResourcesNav .externalResources2:hover {
+    background-color: rgba(153,153,153,1.00);
+}
+.externalResourcesNav .externalResources2 a {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.stretch {
+	content: '';
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+	display: inline-block;
+}
+header .profileHeader {
+	text-align: center;
+	margin-top: 10%;
+}
+header .profileHeader p {
+	text-align: justify;
+}
+header .socialNetworkNavBar {
+	text-align: center;
+	display: block;
+	margin-top: 30px;
+	clear: both;
+	margin-bottom: 15%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 40px;
+	height: 30px;
+	display: inline-block;
+}
+/* Main content sections */
+.mainContent .section1 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: inline-block;
+	text-align: left;
+	font-family: sans-serif;
+}
+.mainContent .section2 {
+	display: inline-block;
+	text-align: center;
+}
+.section2 .section2Content {
+	margin-top: 10%;
+	text-align: justify;
+	margin-bottom: 10%;
+	width: 100%;
+}
+.section2 .sectionContent {
+	margin-top: 10%;
+	text-align: justify;
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 50%;
+	height: 25px;
+}
+.mainContent .externalResourcesNav .externalResources2 {
+	width: 100px;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.mainContent .externalResourcesNav .dropdown {
+	width: 100px;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+/*
+	margin-left: 20%;
+	margin-right: 20%;
+*/
+}
+.mainContent .externalResourcesNav .dropdown-content {
+}
+.mainContent .externalResourcesNav .dropdown:hover .dropdown-content {
+
+}
+	
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+header .profileHeader {
+	text-align: left;
+	margin-top: 7%;
+}
+header .socialNetworkNavBar {
+	margin-left: 259px;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 40px;
+	height: 30px;
+	display: inline-block;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: inline-block;
+	margin: 0% 0% 0% 0%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	font-family: sans-serif;
+	padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	margin-left: 40%;
+	width: 60%;
+}
+	
+.section2 .sectionContent {
+	padding: 0px;
+	margin-left: 0%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	width: 40%;
+    float: left;
+}
+	
+	
+.mainContent .externalResourcesNav {
+	margin-left: 0%;
+	margin-top: 30px;
+	margin-bottom: 00px;
+	text-align: left;
+	padding-top: 0px;
+	padding-left: 5px;
+/*	clear: both;*/
+    margin-left: 40%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 25%;
+	height: 25px;
+}
+	
+.mainContent .externalResourcesNav .externalResources2 {
+	width: 100px;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.mainContent .externalResourcesNav .dropdown {
+	width: 100px;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+}
+.mainContent .externalResourcesNav .dropdown-content {
+
+}
+.mainContent .externalResourcesNav .dropdown:hover .dropdown-content {
+
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+	padding-top: 5%;
+}
+header .profileHeader {
+	text-align: left;
+	padding-top: 5%;
+}
+	
+header .socialNetworkNavBar {
+	margin-left: 259px;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 40px;
+	height: 30px;
+	display: inline-block;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 37%;
+}
+.mainContent .section1 .section1Content {
+	display: inline-block;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 30%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+}
+.mainContent .section2 {
+    clear: both;
+}
+.section2 .section2Content {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    margin-left: 40%;
+	width: 60%;
+    font-family: sans-serif;
+/*    float: left;*/
+/*    clear:both;*/
+/*    display: inline-block;*/
+	}
+	
+.section2 .sectionContent {
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+/*    margin-right: 33%;*/
+	width: 37%;
+    float: left;
+}
+.mainContent .externalResourcesNav {
+    margin-top: 30px;
+    margin-bottom: 0px;
+	padding-left: 5px;
+    text-align: left;
+    padding-top: 0px;
+/*    clear: both;*/
+    margin-left: 40%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 25%;
+	height: 35px;
+}
+	
+.mainContent .externalResourcesNav .externalResources2 {
+	width: 150px;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+
+}
+.mainContent .externalResourcesNav .dropdown {
+	width: 100px;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+}
+.mainContent .externalResourcesNav .dropdown-content {
+
+}
+.mainContent .externalResourcesNav .dropdown:hover .dropdown-content {
+
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+}
