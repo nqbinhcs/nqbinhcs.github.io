@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main homepage -->
+  <url>
+    <loc>https://nqbinhcs.github.io/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Important images for SEO -->
+    <image:image>
+      <image:loc>https://nqbinhcs.github.io/AboutPageAssets/images/nqbinh.jpg</image:loc>
+      <image:title>Quang-Binh Nguyen - AI Research Scientist</image:title>
+      <image:caption>Quang-Binh Nguyen, Research Resident at Qualcomm AI Research specializing in computer vision and image generation</image:caption>
+    </image:image>
+    
+    <!-- CSD-VAR project image -->
+    <image:image>
+      <image:loc>https://nqbinhcs.github.io/AboutPageAssets/projects/demo_csdvar.gif</image:loc>
+      <image:title>CSD-VAR: Content-Style Decomposition in Visual Autoregressive Models</image:title>
+      <image:caption>CSD-VAR research by Quang-Binh Nguyen - ICCV 2025 paper on visual autoregressive models</image:caption>
+    </image:image>
+    
+    <!-- ShowFlow project image -->
+    <image:image>
+      <image:loc>https://nqbinhcs.github.io/AboutPageAssets/projects/demo_showflow.gif</image:loc>
+      <image:title>ShowFlow: Unified Image Personalization Framework</image:title>
+      <image:caption>ShowFlow by Quang-Binh Nguyen - multi-concept generation AI research</image:caption>
+    </image:image>
+    
+    <!-- ArtVista project image -->
+    <image:image>
+      <image:loc>https://nqbinhcs.github.io/AboutPageAssets/projects/demo_artvista.gif</image:loc>
+      <image:title>ArtVista: AR System for AI-Powered Art Creation</image:title>
+      <image:caption>ArtVista by Quang-Binh Nguyen - ACM SIGCHI 2024 AR generative AI artwork tool</image:caption>
+    </image:image>
+    
+    <!-- Synthesis AI project image -->
+    <image:image>
+      <image:loc>https://nqbinhcs.github.io/AboutPageAssets/projects/demo_synthesis_ai.gif</image:loc>
+      <image:title>Synthesis AI: Automated Image Recognition Framework</image:title>
+      <image:caption>Synthesis AI by Quang-Binh Nguyen - automated dataset generation for computer vision</image:caption>
+    </image:image>
+  </url>
+  
+</urlset> 

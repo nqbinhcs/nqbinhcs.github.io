@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://nqbinhcs.github.io/sitemap.xml
+
+# Specific crawl directives for important content
+Allow: /index.html
+Allow: /AboutPageAssets/
+
+# Block unnecessary files
+Disallow: /convert_img.py
+Disallow: /*.py$
+Disallow: /Dockerfile
+Disallow: /run.sh
+Disallow: /.git/
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1 
