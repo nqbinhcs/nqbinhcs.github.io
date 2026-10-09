@@ -617,3 +617,7 @@ a.chip:hover { background: var(--line); color: var(--text); }
   .nav { gap: 12px; }
   .nav a { font-size: .9rem; }
 }
+
+/* highlighted reviewer award badge */
+.venue.top { text-decoration: none; background: #FFF4E5; color: #9A5A12; border-color: #F2C894; }
+.venue.top:hover { background: #FDE7C8; color: #7A4508; }

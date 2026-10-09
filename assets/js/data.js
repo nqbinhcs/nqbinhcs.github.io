@@ -6,6 +6,10 @@
 /* News, newest first. `html` may contain links. */
 window.NEWS = [
   {
+    date: "Oct 2026",
+    html: 'Be selected as <b>NeurIPS 2026 <a href="https://drive.google.com/file/d/11Fdle1Ulq27GxYZ0LKDuiGN_7CxnMfRV/view?usp=sharing" target="_blank" rel="noopener">Top Reviewer</a></b> and awarded a complimentary registration to attend the conference! 🎉🎉'
+  },
+  {
     date: "Sep 2026",
     html: 'Our paper <a href="publications.html#artcrafter">ArtCrafter</a> is accepted to <b>NeurIPS 2026</b>! 🎉'
   },
