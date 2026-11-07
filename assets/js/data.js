@@ -58,7 +58,7 @@ window.PUBS = [
     status: "accepted",
     teaser: { kind: "artcrafter" },
     links: [
-      { label: "PDF", url: "https://arxiv.org/abs/2611.07658" }
+      { label: "Paper", url: "https://arxiv.org/abs/2611.07658" }
     ],
     tldr: "How can we generate a 3D object that actually moves, like a cabinet with a swinging door, from just two images of it closed and open? Learning articulation directly needs hand-annotated data, which remains scarce. ArtCrafter generates each part in both states and derives every joint analytically from how the part moves between them, so the model only needs to learn geometry, where strong 3D priors already exist."
   },
